@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #dddddd;
+}
+
+h1 {
+    background-color: #BFBFBF;
+    color: rgb(40, 73, 114);
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    padding: 8px;
+}
+
+section {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.negrita-italica {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    background-color:#BFBFBF;
+    color: rgb(98, 61, 70);
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1F497D;
+}
+
+footer p {
+    color: white;
+    font-size: 24px;
+}
+
+footer img {
+    width: 30px;
+    margin-top: 8px;
+}
