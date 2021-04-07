@@ -4,7 +4,7 @@ Cursada de "Frontend 1" de la carrera "Certified Tech Developer"
 * ## Receta
 Clase 3 y 4 - Introducción al lenguaje de maquetado y etiquetas
 
-Clase 5 - Propiedades CSS
+Clase 6 - Propiedades CSS
 
 🥧 https://flordemol.github.io/Frontend1/receta/
 
