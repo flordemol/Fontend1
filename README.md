@@ -1,14 +1,21 @@
 # Frontend1
 Cursada de "Frontend 1" de la carrera "Certified Tech Developer"
 
-* ## Receta
-Clase 3 y 4 - Introducción al lenguaje de maquetado y etiquetas
+* ## Cards Superhéroes
+  Clase 7 - Maquetado a partir de Figma - Modelos de cajas
 
-Clase 6 - Propiedades CSS
+  🦸🏽 https://flordemol.github.io/Frontend1/cards_super_heroes/
 
-🥧 https://flordemol.github.io/Frontend1/receta/
 
 * ## CV Batman
-Clase 5 - Introducción al lenguaje de estilos CSS
+  Clase 5 - Introducción al lenguaje de estilos CSS
 
-🦇 https://flordemol.github.io/Frontend1/cv_batman/
+  🦇 https://flordemol.github.io/Frontend1/cv_batman/
+
+
+* ## Receta
+  Clase 3 y 4 - Introducción al lenguaje de maquetado y etiquetas
+
+  Clase 6 - Propiedades CSS
+
+  🥧 https://flordemol.github.io/Frontend1/receta/
