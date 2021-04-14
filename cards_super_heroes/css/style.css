@@ -60,7 +60,8 @@ header {
     height: 200px;
     position: absolute;
     top: 22%;
-    right: 25%;
+    transform: translate(-50%);
+    left: 50%;
 }
 
 .img-heroe img {
@@ -69,6 +70,10 @@ header {
         object-fit: cover;
         object-position: center;
         border-radius: 50%;
+}
+
+img.img_mujer_maravilla {
+    object-position: top;
 }
 
 h2 {
