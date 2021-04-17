@@ -1,6 +1,7 @@
 @import url(variables.css);
 @import url(header.css);
 @import url(forms.css);
+@import url(detail.css);
 @import url(footer.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -21,49 +22,60 @@ main {
     padding-bottom: 100px;
 }
 
-.card {
-    min-height: 580px;
-    max-width: 350px;
-    background-color: #F3F3F3;
-    border-radius: 20px 20px 0 0;
-   -webkit-border-radius: 20px 20px 0 0;
-   -moz-border-radius: 20px 20px 0 0;
-   -ms-border-radius: 20px 20px 0 0;
-   -o-border-radius: 20px 20px 0 0;
+.main-contacto {
+    padding-bottom: 20px;
+}
+
+.section-cards {
     margin: 50px auto;
     text-align: center;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    display: inline-block;
     position: relative;
+    min-height: 580px;
+    max-width: 350px;
+    text-align: center;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+    margin: 25px;
+    vertical-align: bottom;
 }
 
 .card-img img {
-   width: 100%;
-   height: 195px;
-   border-radius: 20px 20px 0 0;
-   -webkit-border-radius: 20px 20px 0 0;
-   -moz-border-radius: 20px 20px 0 0;
-   -ms-border-radius: 20px 20px 0 0;
-   -o-border-radius: 20px 20px 0 0;
-   object-fit: cover;
-   object-position: center;
+    height: 195px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
 }
 
 .img-heroe {
-    border-radius: 50%;
-    width: 130px;
-    height: 130px;
     position: absolute;
     top: 22%;
-    transform: translate(-50%);
     left: 50%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    transform: translate(-50%);
 }
 
 .img-heroe img {
-    width: 100%;
     height: 100%;
+    width: 100%;
+    border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    border-radius: 50%;
 }
 
 img.img_mujer_maravilla {
@@ -71,10 +83,10 @@ img.img_mujer_maravilla {
 }
 
 .card-text {
-    margin: 80px 0 25px 0;
     text-align: left;
-    padding: 0px 20px;
     line-height: 25px;
+    margin: 80px 0 25px 0;
+    padding: 0px 20px;
 }
 
 .card-text h2 {
@@ -87,27 +99,27 @@ img.img_mujer_maravilla {
 }
 
  .btn-card {
-    background-color: var(--color-principal);
     display: inline-block;
     color: white;
+    background-color: var(--color-principal);
     text-decoration: none;
-    padding: 15px 40px;
     margin-bottom: 20px;
- }
+    padding: 15px 40px;
+}
 
- .fa-heart {
+.fa-heart {
     position: absolute;
-    color: #CC2424;
-    font-size: 30px;
     top: 15px;
     left: 15px;
- }
+    color: #CC2424;
+    font-size: 30px;
+}
 
- .fa-plus-circle {
+.fa-plus-circle {
+    position: fixed;
+    top: 86%;
+    right: 10px;
     color: var(--color-principal);
     font-size: 55px;
-    position: fixed;
-    right: 40px;
-    top: 50%;
     cursor: pointer;
- }
+}

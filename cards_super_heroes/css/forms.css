@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap');
 
 .login,
-.registro {
+.registro,
+.contacto {
     min-height: 428px;
     max-width: 621px;
-    margin: 60px auto 0 auto;
     text-align: center;
+    margin: 60px auto 0 auto;
     padding: 0 20px 165px 20px;
 }
 
 .login > h2,
-.registro > h2 {
+.registro > h2,
+.contacto > h2 {
     font-family: 'Inter', sans-serif;
     font-size: 55px;
-    margin-bottom: 45px;
     text-align: left;
+    margin-bottom: 45px;
 }
 
 form > input, 
 form > a, 
 form > p,
-form > select {
+form > select,
+form > textarea {
     font-family: 'Karla', sans-serif;
     font-size: 18px;
 }
@@ -28,23 +31,29 @@ form > select {
 form input, 
 form select {
     display: block;
-    width: 100%;
     height: 60px;
+    width: 100%;
     margin-bottom: 20px;
     padding: 10px 20px;
 }
 
+form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
 
 .btn {
+    height: auto;
     font-size: 22px;
+    padding: 15px;
     border: none;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
-    padding: 15px;
-    height: auto;
     cursor: pointer;
 }
 
@@ -55,11 +64,11 @@ form select {
 }
 
 .btn-reset,
-.btn-registro {
+.btn-registro,
+.btn-contacto {
     width: 42%;
-    display: inline;
     min-width: 120px;
-    
+    display: inline;
 }
 
 .btn-reset {
@@ -67,7 +76,8 @@ form select {
     margin: 15px;
 }
 
-.btn-registro {
+.btn-registro,
+.btn-contacto {
     background: var(--color-secundario);
     margin: 15px;
 }

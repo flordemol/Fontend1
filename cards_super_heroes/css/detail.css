@@ -1,0 +1,94 @@
+.detail-harley {
+    min-height: 80vh;
+    background-image: url(../img/fondo_harley.png);
+    background-size: cover;
+    background-position: center;
+    padding: 180px 10px;
+}
+
+.title-detail {
+    font-size: 60px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.card-detail {
+    background: var(--bg-card-detail);
+    max-width: 580px;
+    min-height: 456px;
+    text-align: center;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+    margin: auto;
+    position: relative;
+}
+
+.img-detail {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+.img-detail img {
+    width: 100%;
+}
+
+.corazon {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+
+.card-detail-text {
+    padding: 110px 25px 20px 25px;
+}
+
+.card-detail-text > h2 {
+    color: var(--bg-footer-card-detail);
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.card-detail-text > p {
+    text-align: left;
+    line-height: 25px;
+}
+
+.txt-nombre {
+    color: var(--bg-footer-card-detail);
+}
+
+.italica {
+    font-style: italic;
+}
+
+.footer-detail {
+    background: var(--bg-footer-card-detail);
+    min-height: 80px;
+    line-height: 80px;
+    border-radius: 0px 0px 45px 45px;
+    -webkit-border-radius: 0px 0px 45px 45px;
+    -moz-border-radius: 0px 0px 45px 45px;
+    -ms-border-radius: 0px 0px 45px 45px;
+    -o-border-radius: 0px 0px 45px 45px;
+    margin-top: 15px;
+}
+
+.footer-detail a {
+    color: white;
+    text-decoration: none;
+}
