@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap');
+
+.login,
+.registro {
+    min-height: 428px;
+    max-width: 621px;
+    margin: 60px auto 0 auto;
+    text-align: center;
+    padding: 0 20px 165px 20px;
+}
+
+.login > h2,
+.registro > h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 55px;
+    margin-bottom: 45px;
+    text-align: left;
+}
+
+form > input, 
+form > a, 
+form > p,
+form > select {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+form input, 
+form select {
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+
+.btn {
+    font-size: 22px;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding: 15px;
+    height: auto;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: var(--color-secundario);
+    width: 100%;
+    margin: 45px 0 13px 0;
+}
+
+.btn-reset,
+.btn-registro {
+    width: 42%;
+    display: inline;
+    min-width: 120px;
+    
+}
+
+.btn-reset {
+    background: #888;
+    margin: 15px;
+}
+
+.btn-registro {
+    background: var(--color-secundario);
+    margin: 15px;
+}
+
+.ir-a-registro > a, 
+.ir-a-registro > p,
+.ir-a-login > a, 
+.ir-a-login > p{
+    display: inline;
+}
+
+.ir-a-registro > a,
+.ir-a-login > a {
+    text-decoration: none;
+}

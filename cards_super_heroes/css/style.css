@@ -1,34 +1,29 @@
+@import url(variables.css);
+@import url(header.css);
+@import url(forms.css);
+@import url(footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.descuento {
-    background-color: #1CD1B0;
-    font-size: 25px;
-    padding: 5px 15px;
+body {
+    min-height: 100vh;
+    position: relative;
 }
 
-h1 {
-    color: #FFF;
-    background: #00669F;
-    border: 1px solid #000000;
-    font-size: 50px;
-    box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
-    font-weight: normal;
-    padding: 10px;
+main {
+    padding-bottom: 100px;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-}
 .card {
-    height: 715px;
-    max-width: 400px;
+    min-height: 580px;
+    max-width: 350px;
     background-color: #F3F3F3;
     border-radius: 20px 20px 0 0;
    -webkit-border-radius: 20px 20px 0 0;
@@ -39,12 +34,11 @@ header {
     text-align: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     position: relative;
-
 }
 
 .card-img img {
    width: 100%;
-   height: 270px;
+   height: 195px;
    border-radius: 20px 20px 0 0;
    -webkit-border-radius: 20px 20px 0 0;
    -moz-border-radius: 20px 20px 0 0;
@@ -56,8 +50,8 @@ header {
 
 .img-heroe {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
     position: absolute;
     top: 22%;
     transform: translate(-50%);
@@ -65,65 +59,55 @@ header {
 }
 
 .img-heroe img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-        border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
 }
 
 img.img_mujer_maravilla {
     object-position: top;
 }
 
-h2 {
-    font-size: 35px;
-}
-
 .card-text {
-    margin-top: 115px;
-}
-
-.card-text p {
-    margin: 25px 30px;
-    text-align: justify;
+    margin: 80px 0 25px 0;
+    text-align: left;
+    padding: 0px 20px;
     line-height: 25px;
 }
 
+.card-text h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
 
- .btn {
-    background-color: #00669F;
+.card-text p {
+    font-size: 16px;
+}
+
+ .btn-card {
+    background-color: var(--color-principal);
     display: inline-block;
     color: white;
     text-decoration: none;
     padding: 15px 40px;
-    border-radius: 7px;
+    margin-bottom: 20px;
  }
 
  .fa-heart {
-     position: absolute;
+    position: absolute;
     color: #CC2424;
-    font-size: 35px;
+    font-size: 30px;
     top: 15px;
     left: 15px;
  }
 
  .fa-plus-circle {
-    color: #00669F;
+    color: var(--color-principal);
     font-size: 55px;
     position: fixed;
     right: 40px;
     top: 50%;
     cursor: pointer;
  }
-
- footer {
-     background-color: #00669F;
-     color: white;
-     text-align: center;
-    
-    }
-
-    footer p {
-    padding: 35px;
-    }
