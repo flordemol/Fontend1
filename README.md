@@ -1,8 +1,9 @@
 # Frontend1
 Cursada de "Frontend 1" de la carrera "Certified Tech Developer"
 
-* ## Cards Superhéroes
+* ## Cards Superhéroes - Ecommerce
   Clase 7 - Maquetado a partir de Figma - Modelos de cajas
+  Clase 9 - Formularios
 
   🦸🏽 https://flordemol.github.io/Frontend1/cards_super_heroes/
 
