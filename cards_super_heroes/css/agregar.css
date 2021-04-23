@@ -1,0 +1,121 @@
+.agregar-personaje {
+    background-color: var(--color-principal);
+    color: white;
+    max-width: 955px;
+    min-height: 800px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.agregar-personaje h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+
+.agregar-personaje p {
+    font-size: 20px;
+}
+
+.col-1, .col-2 {
+    display: inline-block;
+    width: 400px;
+    max-width: 100%;
+    vertical-align: top;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 8px;
+}
+
+
+.agregar-personaje p {
+    margin: 10px auto;
+}
+
+.agregar-personaje input,
+.agregar-personaje textarea,
+.agregar-personaje select {
+    min-height: 63px;
+    max-width: 100%;
+    left: 366px;
+    top: 329px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.agregar-personaje input[type=file] {
+    border: none;
+    color: #000;
+    line-height: 4;
+}
+
+.agregar-personaje input[type=radio],
+.agregar-personaje input[type=checkbox]  {
+    width: 24px;
+    min-height: 20px;
+    height: 20px;
+    border: 1px solid #C4C4C4;
+    display: inline-block;
+    margin: 8px auto;
+}
+
+.agregar-personaje input[type=text],
+.agregar-personaje input[type=date],
+.agregar-personaje textarea,
+.agregar-personaje select  {
+    font-size: 20px;
+    outline: none;
+}
+
+.agregar-personaje label {
+    display: block;
+}
+
+hr {
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+}
+
+.lbl-check-radio {
+    font-size: 16px;
+}
+
+.agregar-personaje textarea {
+    height: 300px;
+}
+
+.btn-agregar-personaje {
+    background-color: var(--color-secundario);
+    width: 466px;
+    height: 87px;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 20px auto;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: bold;
+}
+
+.btn-agregar-personaje:hover {
+    color: white;
+    background-color: var(--color-navegacion);
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}

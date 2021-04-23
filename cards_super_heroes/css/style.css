@@ -2,6 +2,7 @@
 @import url(header.css);
 @import url(forms.css);
 @import url(detail.css);
+@import url(agregar.css);
 @import url(footer.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -96,6 +97,7 @@ img.img_mujer_maravilla {
 
 .card-text p {
     font-size: 16px;
+    margin-bottom: 125px;
 }
 
  .btn-card {
@@ -105,6 +107,10 @@ img.img_mujer_maravilla {
     text-decoration: none;
     margin-bottom: 20px;
     padding: 15px 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .fa-heart {
@@ -117,9 +123,13 @@ img.img_mujer_maravilla {
 
 .fa-plus-circle {
     position: fixed;
-    top: 86%;
-    right: 10px;
+    top: 50%;
+    right: 20px;
     color: var(--color-principal);
     font-size: 55px;
     cursor: pointer;
+}
+
+.fa-plus-circle:hover {
+    color: var(--color-navegacion);
 }

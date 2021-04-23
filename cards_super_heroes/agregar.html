@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Super Heroes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="descuento"><p>20% de descuento en todos los productos!</p></div>
+    
+    <header>
+        <img src="img/logo 1.png" alt="Logo de la tienda">
+        <a href="index.html"><h1>Nombre Tienda</h1></a>
+        <nav>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a href="register.html">Registrarme</a>
+            </li>
+            <li>
+                <a href="login.html">Ingresar</a>
+            </li>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="agregar-personaje">
+
+            <h3>¡Añadí tu super!</h3>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+
+            <form action="#">
+
+                <div class="col-1">
+                    <label for="nombre">* Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required tabindex="1">
+
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha" tabindex="3">
+
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" tabindex="5" placeholder="Descripción"></textarea>
+                </div>
+
+                <div class="col-2">
+                    <label for="especie">* Especie</label>
+                    <select name="especie" id="especie" required tabindex="2">
+                        <option value="" disabled selected hidden>Especie</option>
+                        <option value="desconocido">Desconocido</option>
+                        <option value="desconocido">Humano</option>
+                        <option value="desconocido">Mutante</option>
+                        <option value="desconocido">Animal</option>
+                    </select>
+
+                    <label for="foto">Agregar Foto</label>
+                    <input type="file" name="foto" id="foto" accept=".jpg, .pdf, .png" multiple tabindex="4">
+
+                    <p>Poderes</p>
+                   
+                    <label for="poder1" class="lbl-check-radio"><input type="checkbox" name="poderes" id="poder1" value="volar" tabindex="6"> Volar</label>
+                    <label for="poder2" class="lbl-check-radio"><input type="checkbox" name="poderes" id="poder2" value="super-inteligencia" tabindex="7"> SuperInteligencia</label>
+                    <label for="poder3" class="lbl-check-radio"><input type="checkbox" name="poderes" id="poder3" value="vista-rayo-laser" tabindex="8"> Vista de rayo láser</label>
+                    <label for="poder4" class="lbl-check-radio"><input type="checkbox" name="poderes" id="poder4" value="billetera-gorda" tabindex="9"> Billetera gorda</label>
+
+                    <hr>
+
+                    <p>Tipo de personaje</p>
+                   
+                    <label for="tipo1" class="lbl-check-radio"><input type="radio" name="tipo" id="tipo1" value="heroe" tabindex="10"> Héroe / Heroina</label>
+                    <label for="tipo2" class="lbl-check-radio"><input type="radio" name="tipo" id="tipo2" value="villano" tabindex="11"> Villano / Villana</label>
+                </div>
+
+                <input type="submit" value="Añadir" class="btn-agregar-personaje" tabindex="12">
+            </form>
+
+        </section>
+    </main>
+
+    <footer><p>Todos los derechos reservados a FLOR DE MOLLEIN</p></footer>
+
+</body>
+</html>
