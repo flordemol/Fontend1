@@ -5,6 +5,8 @@ Cursada de "Frontend 1" de la carrera "Certified Tech Developer"
   Clase 7 - Maquetado a partir de Figma - Modelos de cajas
   
   Clases 9 y 10 - Formularios
+  
+  Clase 11 - Pseudoclases y Pseudoelementos
 
   🦸🏽 https://flordemol.github.io/Frontend1/cards_super_heroes/
 
