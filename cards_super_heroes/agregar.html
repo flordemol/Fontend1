@@ -57,22 +57,41 @@
                         <option value="desconocido">Animal</option>
                     </select>
 
-                    <label for="foto">Agregar Foto</label>
-                    <input type="file" name="foto" id="foto" accept=".jpg, .pdf, .png" multiple tabindex="4">
+                    <div class="subir-foto">
+                        <label for="foto">Agregar Foto</label>
+                        <input type="file" name="foto" id="foto" accept=".jpg, .pdf, .png" multiple tabindex="4">
+                    </div>
 
                     <p>Poderes</p>
-                   
-                    <label for="poder1" class="lbl-check-radio"><input type="checkbox" name="poderes" id="poder1" value="volar" tabindex="6"> Volar</label>
-                    <label for="poder2" class="lbl-check-radio"><input type="checkbox" name="poderes" id="poder2" value="super-inteligencia" tabindex="7"> SuperInteligencia</label>
-                    <label for="poder3" class="lbl-check-radio"><input type="checkbox" name="poderes" id="poder3" value="vista-rayo-laser" tabindex="8"> Vista de rayo láser</label>
-                    <label for="poder4" class="lbl-check-radio"><input type="checkbox" name="poderes" id="poder4" value="billetera-gorda" tabindex="9"> Billetera gorda</label>
-
+                   <div>
+                        <input type="checkbox" name="poderes" id="poder1" value="volar" tabindex="6">
+                        <label for="poder1" class="lbl-check">Volar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="poderes" id="poder2" value="super-inteligencia" tabindex="7">
+                        <label for="poder2" class="lbl-check">SuperInteligencia</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="poderes" id="poder3" value="vista-rayo-laser" tabindex="8">
+                        <label for="poder3" class="lbl-check">Vista de rayo láser</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="poderes" id="poder4" value="billetera-gorda" tabindex="9">
+                        <label for="poder4" class="lbl-check">Billetera gorda</label>
+                    </div>
+                    
                     <hr>
 
                     <p>Tipo de personaje</p>
                    
-                    <label for="tipo1" class="lbl-check-radio"><input type="radio" name="tipo" id="tipo1" value="heroe" tabindex="10"> Héroe / Heroina</label>
-                    <label for="tipo2" class="lbl-check-radio"><input type="radio" name="tipo" id="tipo2" value="villano" tabindex="11"> Villano / Villana</label>
+                    <div>
+                        <input type="radio" name="tipo" id="tipo1" value="heroe" tabindex="10">
+                        <label for="tipo1" class="lbl-radio">Héroe / Heroina</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="tipo" id="tipo2" value="villano" tabindex="11">
+                        <label for="tipo2" class="lbl-radio">Villano / Villana</label>
+                    </div>
                 </div>
 
                 <input type="submit" value="Añadir" class="btn-agregar-personaje" tabindex="12">

@@ -49,6 +49,14 @@ main {
     vertical-align: bottom;
 }
 
+.card:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
 .card-img img {
     height: 195px;
     width: 100%;
