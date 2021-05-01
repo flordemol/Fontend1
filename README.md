@@ -1,6 +1,12 @@
 # Frontend1
 Cursada de "Frontend 1" de la carrera "Certified Tech Developer"
 
+* ## Responsive
+  Clase 13 - Diseño adaptativo
+  
+  📏 https://flordemol.github.io/Frontend1/responsive/
+  
+  
 * ## Animaciones CSS
   Clase 12 - Animaciones
   
