@@ -1,6 +1,12 @@
 # Frontend1
 Cursada de "Frontend 1" de la carrera "Certified Tech Developer"
 
+* ## Flexbox
+  Clase 14 - Cajas flexibles
+  
+  🍕 https://flordemol.github.io/Frontend1/pizza_flex/
+  
+  
 * ## Responsive
   Clase 13 - Diseño adaptativo
   
