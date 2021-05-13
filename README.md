@@ -1,6 +1,16 @@
 # Frontend1
 Cursada de "Frontend 1" de la carrera "Certified Tech Developer"
 
+* ## Grid
+  Clase 16 - InstaFront
+    
+  📸 https://flordemol.github.io/Frontend1/insta_front/
+  
+  Clase 16 -Rompecabezas
+  
+  🧩 https://flordemol.github.io/Frontend1/rompecabezas/
+  
+  
 * ## Cat & Dog
   Clase 15 - Evaluación
   
