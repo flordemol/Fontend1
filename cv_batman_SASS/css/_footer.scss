@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    background-color: $color-footer;
+    @include flex(center, center);
+    gap: 5px;
+    padding: 10px;
+    p {
+        color: white;
+        font-size: 24px;
+    }
+    a {
+        height: 30px;
+        width: 30px;
+    }
+    img {
+        width: 100%;
+    }
+}
+

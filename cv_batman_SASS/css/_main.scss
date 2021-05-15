@@ -1,0 +1,28 @@
+main {
+    width: 100%;
+    line-height: 30px;
+    section {
+        text-align: left;
+        width: 50%;
+        margin: 30px auto;
+    }
+    .negrita-italica {
+        font-weight: bold;
+        font-style: italic;
+    }
+    h2 {
+        background-color:$color-secundario;
+        color: rgb(98, 61, 70);
+        font-size: 18px;
+        padding: 5px 15px;
+        &:hover {
+            background-color: #cec0c0;
+        }
+    }
+    dd {
+        margin-left: 40px;
+    }
+    li {
+        margin-left: 20px;
+    }
+}
